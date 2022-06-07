@@ -1,0 +1,12 @@
+{
+  "name": "l1-js-fundamentals",
+  "version": "1.0.0",
+  "description": "JavaScript fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "author": "Ian Okumu",
+  "license": "ISC"
+}
