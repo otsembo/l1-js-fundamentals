@@ -33,6 +33,15 @@ To use this repo on your machine requires some simple steps
 - (Alternate Option) Open it in any editor of your choice.
 - Hurray! You are one step closer to being as intelligent as Einstein.
 
+### Alternative Installation
+
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
+
+        git clone https://github.com/your-username-here/l1-js-fundamentals.git
+
 
 # Running the application
 
