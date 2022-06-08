@@ -85,7 +85,7 @@ let ind1 = lower.charAt(10)
 //PRACTICE
 
 //TODO: greater than (>)
-printValue(5 >= '5')
+//printValue(5 >= '5')
 
 //TODO: less than (<)
 
@@ -99,9 +99,75 @@ printValue(5 >= '5')
 
 // 5.0 CONTROL FLOW
 // TODO: if-else statement
+// syntax: if(boolean condition){code goes}else{some other code}
+// if(boolean condition){code}else if(other condition){other code} else if(...){}else{}
+
+const wheels = 2
+
+// considering one option
+// if(wheels > 4){
+//     printValue("This is a truck")
+// }
+
+// two options
+// if(wheels < 4){
+//     printValue("This is a bike")
+// }else{
+//     printValue("This is not a bike")
+// }
+
+//multiple options
+if(wheels < 4){
+    if(wheels == 3 ){
+        printValue("This is a tuk tuk")
+    }else if(wheels == 2){
+        printValue("This is a bicycle")
+    }else{
+        printValue("This is a unicycle")
+    }
+    //printValue("This is a bike")
+}else if(wheels == 4){
+    printValue("This is a saloon car")
+}else if(wheels > 4){
+    printValue("This is a truck")
+}
 
 
-//TODO: switch-case
+//TODO: switch-case (multiple choice alternatives)
+// GRADES [A,B,C,D]
+const grade = 'a'
+
+// switch syntax
+// switch(variable){
+//     case option1:
+//         code
+//         break;
+//     case option2:
+//         code
+//         break
+//     default:
+//         code
+// }
+
+
+switch(grade){
+    case 'A':
+        printValue("Well Done")
+        break
+    case 'B':
+        printValue("Good Job")
+        break
+    case 'C':
+        printValue("Improvement required")
+        break
+    case 'D':
+        printValue("See me in my office")
+        break
+    default:
+        printValue("Sorry! You seem lost")
+}
+
+
 
 
 
