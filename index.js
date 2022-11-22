@@ -59,19 +59,21 @@ printValue("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charAt(0, 2, 9))
 
 // 4.0 COMPARISON
 //TODO: strict equality
-
+const one = 1
+const otherOne = '1'
+console.log('S Equality:', one === otherOne)
 
 //TODO: strict inequality
-
+console.log('S Inequality:', one !== otherOne)
 
 //TODO: equality
-
+console.log('L Equality:', one == otherOne)
 
 //TODO: inequality
-
+console.log('L Inequality:', one != otherOne)
 
 //TODO: greater than
-
+console.log('Greater:', 5 >= 4)
 
 //TODO: less than
 
@@ -84,11 +86,29 @@ printValue("ABCDEFGHIJKLMNOPQRSTUVWXYZ".charAt(0, 2, 9))
 
 
 // 5.0 CONTROL FLOW
-// TODO: if-else statement
-
+// TODO: if-else 
+if(age >= 18 && age < 80 ){ 
+    console.log('ELIGBLE:', true)
+}else if(age >= 16  && age < 18){
+    console.log('ELIGBLE chini ya maji:', true)  
+}else{
+    console.log('ELIGBLE:', false)
+}
+clea
 
 //TODO: switch-case
+const grade = 99
+switch(grade){
+    case 100:
+        console.log('grade:', "passed")
+        break
+    case 80:
+        console.log('grade:', "retake")
+        break
+    default:
+        console.log('grade:', "expelled")
 
+}
 
 
 
