@@ -58,7 +58,7 @@ printValue(other.toLowerCase());
 
 
 //TODO: Index a specific character
-printValue("ASKITHYBEDGAYEGEHHE".charAt(0,5,10))
+printValue("ASKITHYBEDGAYEGEHHE".charAt(0,5,10));
 
 
 //TODO: PRACTICE ON YOUR OWN (Check mozilla documentation)
@@ -66,36 +66,61 @@ printValue("ASKITHYBEDGAYEGEHHE".charAt(0,5,10))
 
 // 4.0 COMPARISON
 //TODO: strict equality
+const one = 1;
+const otherOne = '1';
+console.log('S Equality:', one === otherOne);
 
 
 //TODO: strict inequality
+console.log('S Equality:' , one !== otherOne);
 
 
 //TODO: equality
+console.log('L Equality:' , one == otherOne);
 
 
 //TODO: inequality
-
+console.log('L Equality:' , one != otherOne);
 
 //TODO: greater than
-
+console.log('Greater' , 5 > 4);
 
 //TODO: less than
+console.log('Less' , 5 < 4);
 
 
 //TODO: greater or equal to
+console.log('Greater or equal :' , 5 >= 4);
 
 
 //TODO: less or equal to
-
+console.log('less than or equal:', 5 <= 4)
 
 
 // 5.0 CONTROL FLOW
 // TODO: if-else statement
-
+if (age >=18){
+    console.log('ELIGIBLE:', true);
+}
+else if(age >= 16){
+    console.log('ELIGIBLE, chini ya maji:', true);
+}
+else{
+    console.log('ELIGIBLE:', false);
+}
 
 //TODO: switch-case
-
+const grade =  100;
+switch(grade){
+    case 100: 
+    console.log('grade:', "passed");
+    break
+    case 80:
+    console.log('grade:', "retake");
+    break
+    default:
+        console.log('grade:', "expelled");    
+}
 
 
 
